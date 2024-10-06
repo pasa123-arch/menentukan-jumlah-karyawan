@@ -21,9 +21,9 @@ class Company:
 company = Company()
 
 # Menambahkan karyawan
-company.add_employee(Employee("Alice", "Manager"))
-company.add_employee(Employee("Bob", "Developer"))
-company.add_employee(Employee("Charlie", "Designer"))
+company.add_employee(Employee("Rey", "Manager"))
+company.add_employee(Employee("Adi", "Developer"))
+company.add_employee(Employee("Supri", "Designer"))
 
 # Menampilkan jumlah total karyawan
 print(f"Total number of employees: {company.total_employees()}")
